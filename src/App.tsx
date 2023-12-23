@@ -3,14 +3,14 @@ import './App.css'
 import chiken from './assets/pizza_flavors/chiken.jpeg'
 import fourCheese from './assets/pizza_flavors/fourChesse.jpeg';
 import peperoni from './assets/pizza_flavors/pepperoni.jpeg'
-import margerita from './assets/pizza_flavors/margerita.jpeg'
+import margherita from './assets/pizza_flavors/margherita.jpeg'
 import InputSlices from './components/inputSlices';
 
 const defaultFlavors = [
   'chiken',
   'fourCheese',
   'peperoni',
-  'margerita',
+  'margherita',
 ]
 
 function App() {
@@ -97,10 +97,10 @@ function App() {
               </pattern>
             </defs>
             <defs>
-              <pattern id="margerita" patternUnits="objectBoundingBox"
+              <pattern id="margherita" patternUnits="objectBoundingBox"
                 width="12"
                 height="12">
-                <image xlinkHref={margerita} width="18" height="18" />
+                <image xlinkHref={margherita} width="18" height="18" />
               </pattern>
             </defs>
           </svg>
